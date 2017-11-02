@@ -8,9 +8,10 @@ body {
 }
 
 .footerstyle {
-	text-align: center;
-	width: 100%;
-	word-spacing: 30px;
+	padding: 20px 0px 20px 0px;
+	background-color: #343a40;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
 .copyrightstyle {
