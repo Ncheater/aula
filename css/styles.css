@@ -1,0 +1,20 @@
+body {
+	background: url(https://ncheater.github.io/aula/img/capa.jpg) no-repeat center center fixed;
+	backgroud-attachment: fixed;
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.footer_style {
+	text-align: center;
+    width: 100%;
+    word-spacing: 30px;
+}
+
+.copyright_style {
+	background-color: #22292f;
+    text-align: center;
+    color: #9a9da0;
+}
