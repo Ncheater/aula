@@ -27,26 +27,8 @@ body {
 	text-align: center;
 	color: #9a9da0;
 }
-a:link {
+a, a:link, a:visited, a:hover, a:active {
     color: #00000000; 
     background-color: transparent; 
     text-decoration: none;
-}
-
-a:visited {
-    color: #00000000;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #00000000;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-a:active {
-    color: #00000000;
-    background-color: transparent;
-    text-decoration: underline;
 }
