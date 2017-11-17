@@ -13,7 +13,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
+	<script>
+		function resizeIframe(obj) {
+		obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+		}
+	</script>
+</head>
   <body>
 <!-- Inicio do jumbo -->
 <div>
@@ -57,7 +62,7 @@
 	</li>
 	  
 	  <li class="nav-item">
-        <a class="nav-link" href="depoimento.php">Depoimentos</a>
+        <a class="nav-link" href="depoimento.html" target="corpo">Depoimentos</a>
       </li>
 	  
       </ul>
@@ -117,8 +122,8 @@
 <!-- Inicio do corpo -->
 <div class="container contentstyle">
 	<div class="mt-1" style= "color: #FFF;">
-		<h1>Título</h1>
-			<p class="lead">Corpo</p>
+		<iframe name="corpo" frameborder="0" scrolling="no" onload="resizeIframe(this)">
+		</iframe>
 	</div>
 	
 </div>
