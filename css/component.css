@@ -96,6 +96,7 @@
 #slide4:checked ~ #controls label:nth-child(5), 
 #slide5:checked ~ #controls label:nth-child(1) {
 	background: url('https://ncheater.github.io/aula/img/next.png') no-repeat;
+	background-size: 100%;
 	float: right;
 	margin: 0 10px 0 0;
 	display: block;
@@ -108,6 +109,7 @@
 #slide4:checked ~ #controls label:nth-child(3),
 #slide5:checked ~ #controls label:nth-child(4) {
 	background: url('https://ncheater.github.io/aula/img/prev.png') no-repeat;
+	background-size: 100%;
 	float: left;
 	margin: 0 0 0 17px;
 	display: block;
