@@ -96,10 +96,10 @@
 #slide4:checked ~ #controls label:nth-child(5), 
 #slide5:checked ~ #controls label:nth-child(1) {
 	background: url('img/next.png') no-repeat;
+	background-size: cover;
 	float: right;
 	margin: 0 10px 0 0;
 	display: block;
-	background-color:#ef023f;
 }
 
 
@@ -109,10 +109,10 @@
 #slide4:checked ~ #controls label:nth-child(3),
 #slide5:checked ~ #controls label:nth-child(4) {
 	background: url('img/prev.png') no-repeat;
+	background-size: cover;
 	float: left;
 	margin: 0 0 0 17px;
 	display: block;
-	background-color:#ef023f;
 }
 
 
