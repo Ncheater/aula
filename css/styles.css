@@ -1,5 +1,5 @@
 body {
-	background: url(https://ncheater.github.io/aula/img/capa.jpg) no-repeat center center fixed;
+	background: url('../img/capa.jpg') no-repeat center center fixed;
 	backgroud-attachment: fixed;
   	-webkit-background-size: cover;
  	-moz-background-size: cover;
