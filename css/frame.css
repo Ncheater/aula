@@ -10,7 +10,10 @@ body {
   	overflow-x: hidden;
 }
 
-
+capas {
+	width: 800px;
+	height: 450px;
+}
 
 .container {
    
