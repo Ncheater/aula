@@ -10,9 +10,14 @@ body {
   	overflow-x: hidden;
 }
 
-capas {
+.capas {
 	width: 800px;
 	height: 450px;
+}
+
+.capasconsole {
+	width: 400px;
+	height: 533px;
 }
 
 .container {
