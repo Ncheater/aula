@@ -6,15 +6,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	</head>
   <body>
-    <form action="mailto:contato.otagamerz@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name "><br>
-E-mail:<br>
-<input type="text" name="mail "><br>
-Comment:<br>
-<input type="text" name="comment " size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
+    <form action="mailto:contato.otagamerz@gmail.com?subject=contato" method="post">
+Nome:<br>
+<input  type="text" name="Nome"><br>
+Assunto:<br>
+<input type="text" name="Assunto"><br>
+Mensagem:<br>
+<input class="contato" type="text" name="Mensagem" size="50"><br><br>
+<input class="contato" type="submit" value="Enviar">
+<textarea class="contato" style="height: 200px" type="reset" value="Limpar">
 </form>
   </body>
 </html>
