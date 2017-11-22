@@ -11,7 +11,8 @@ body {
 }
 
 .contato {
-	width: -webkit-fill-available;	
+	width: -webkit-fill-available;
+	margin: 20px 15px 20px 15px;
 }
 
 .capas {
