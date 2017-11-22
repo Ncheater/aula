@@ -45,11 +45,11 @@ header {
 }
 
 a {
-	color: #CCC;
+	color: #FFF;
 	text-decoration: none;
 }
 a:hover {
-	color: #FFF
+	color: #AAA;
 	text-decoration: none;
 }
 
